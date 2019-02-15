@@ -36,10 +36,10 @@ download="svn checkout"
      xcodebuild -project AppleALC.xcodeproj -configuration Release
 
 ## cp
-    cp -R  build/Release/AppleALC.kext ~/Desktop/AppleALC_CX20751_$AppleALCVer.kext
+    cp -R  build/Release/AppleALC.kext ~/Desktop/AppleALC_$AppleALCVer.kext
 
 ## done.  assuming no error  -_-||
-    echo  "\033[1;32m AppleALC_CX20751_v$AppleALCVer.kext has been built. \033[0m"
+    echo  "\033[1;32m AppleALC_v$AppleALCVer.kext has been built. \033[0m"
 
 ## clean
     rm lilu $DebugLiluVer.DEBUG.zip

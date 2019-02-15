@@ -6,5 +6,7 @@
 	<integer>5361</integer>
 	<key>Intel</key>
 	<integer>32902</integer>
+	<key>Realtek</key>
+	<integer>4332</integer>
 </dict>
 </plist>

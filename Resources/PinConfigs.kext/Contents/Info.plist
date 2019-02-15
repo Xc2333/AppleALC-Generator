@@ -24,15 +24,39 @@
 	<dict>
 		<key>HDA Hardware Config Resource</key>
 		<dict>
+			<key>CFBundleIdentifier</key>
+			<string>com.apple.driver.AppleHDAHardwareConfigDriver</string>
 			<key>HDAConfigDefault</key>
 			<array>
+				<dict>
+					<key>AFGLowPowerState</key>
+					<data>AwAAAA==</data>
+					<key>Codec</key>
+					<string>Realtek ALC230 for Lenovo Ideapad 320 by maiconjs</string>
+					<key>CodecID</key>
+					<integer>283902512</integer>
+					<key>ConfigData</key>
+					<data>
+					AhccEAIXHRACFx4rAhcfBAFHHCABRx0BAUce
+					FwFHH5ABJxwwAScdAQEnHqABJx+QAZccQAGX
+					HRABlx6LAZcfBA==
+					</data>
+					<key>FuncGroup</key>
+					<integer>1</integer>
+					<key>LayoutID</key>
+					<integer>20</integer>
+				</dict>
 				<dict>
 					<key>Codec</key>
 					<string>Andres ZeroCross - Asus A455LF - WX039D</string>
 					<key>CodecID</key>
 					<integer>351359247</integer>
 					<key>ConfigData</key>
-					<data>AZcHJAGnByQBZxxAAWcdEAFnHiEBZx8EAXccEAF3HQEBdx4XAXcfkAGXHDABlx0QAZcegQGXHwQBpxwgAacdAQGnHqABpx+Q</data>
+					<data>
+					AZcHJAGnByQBZxxAAWcdEAFnHiEBZx8EAXcc
+					EAF3HQEBdx4XAXcfkAGXHDABlx0QAZcegQGX
+					HwQBpxwgAacdAQGnHqABpx+Q
+					</data>
 					<key>FuncGroup</key>
 					<integer>1</integer>
 					<key>LayoutID</key>
@@ -43,8 +67,6 @@
 					<true/>
 				</dict>
 			</array>
-			<key>CFBundleIdentifier</key>
-			<string>com.apple.driver.AppleHDAHardwareConfigDriver</string>
 			<key>IOClass</key>
 			<string>AppleHDAHardwareConfigDriver</string>
 			<key>IOMatchCategory</key>
